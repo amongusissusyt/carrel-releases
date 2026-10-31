@@ -41,7 +41,7 @@ That company's own terms and privacy policy then apply, and you pay what it char
 
 ## Exports and backups
 
-An export is a plain file of your data (spaces, habits, deadlines, plan, notes and preferences). It never contains keys, your passcode or protection settings. Daily backups are full copies of the data file, so they do hold encrypted key blobs and the passcode check; they stay in the folder above. Keep exports somewhere you trust: they are readable by anyone who has the file.
+An export is a plain file of your data (spaces, habits, deadlines, plan, notes and preferences). It never contains keys, your passcodes or protection settings. Daily backups are full copies of the data file, so they do hold encrypted key blobs and the passcode checks; they stay in the folder above. Keep exports somewhere you trust: they are readable by anyone who has the file.
 
 ## Removing everything
 

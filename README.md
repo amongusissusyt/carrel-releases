@@ -9,7 +9,7 @@ Carrel is an early test version, made by one person (Ansh Sarawagi) for macOS. I
 - **Focus sessions.** Press ⇧⌘F, write the one thing you are doing, and only the sites you allowed will open. Anything else makes you wait, so a passing urge has time to pass.
 - **Blocks adult sites and distractions, and is slow to switch off.** The adult-content filter is always on. Turning off the blocking of adult-heavy platforms (Reddit, X, Discord…) takes 24 hours.
 - **"Take a moment" for urges.** A slow-breathing pause, a private note, and an optional 30-minute lockdown of your distraction sites (social media, streaming, games).
-- **A private, passcode-locked journal** for urges and what set them off, encrypted with your Mac's Keychain.
+- **A private journal behind its own passcode** for urges and what set them off, encrypted with your Mac's Keychain.
 - **Habits and daily wins.** A month grid you can drag across, streaks, and one physical, one mental and one academic win a day.
 - **Deadlines and a calendar you can edit.** Add things by typing "Maths tomorrow 4pm for 2h", drag them around, mark times that repeat every day.
 - **A normal browser underneath:** tabs grouped into spaces, find, zoom, bookmarks, history, downloads.
@@ -38,7 +38,8 @@ After that, Carrel looks for new versions itself. When one is ready, click **Upd
 
 ## Please read
 
-- **It is a speed bump you set up for yourself, not a wall.** Someone who owns the Mac can get around it. It is most useful when a friend or parent types the passcode in for you so you do not know it.
+- **It is a speed bump you set up for yourself, not a wall.** Someone who owns the Mac can get around it. There are two separate locks: a *privacy passcode* that keeps other people out of your private journal, and an optional *accountability code* that is most useful when a friend or parent types it in for you so you do not know it. Turning protection off always takes a 24-hour wait, and needs that code too if one is set.
+- **It only runs on a Mac for now.** There is no iPhone, iPad, Android or Windows version yet. For your phone, use Screen Time → Content & Privacy → Web Content → Limit Adult Websites, with a Screen Time passcode someone else holds.
 - **It is an early test.** Things will break. Your data is backed up daily on your Mac, and you can export it from Settings.
 - **It is not medical advice.** If an urge feels out of your control, talking to a professional helps and is common.
 - **Privacy:** no accounts, no tracking, nothing about what you browse leaves your Mac. The full list of what it connects to is in [PRIVACY.md](PRIVACY.md).
