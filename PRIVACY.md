@@ -7,7 +7,7 @@ Carrel is a personal project made by one person. This page says plainly what it 
 Everything you create lives in one folder, `~/Library/Application Support/Carrel/`:
 
 - your spaces and open tabs, bookmarks, history, download list, habits, wins, deadlines, plan, events, clips and settings;
-- the private urge journal (each note encrypted with the macOS Keychain);
+- the private urge journal (each note scrambled with a secret that your Mac's Keychain keeps for Carrel);
 - a daily backup of the data file (last seven days), a log file, and any export you make.
 
 Carrel has **no analytics, no tracking and no account**. It does not send what you browse, your notes or your habits anywhere. (An account system exists in the code but is switched off.)
@@ -22,6 +22,10 @@ Carrel has **no analytics, no tracking and no account**. It does not send what y
 | Calendar links you add | The address you gave | An ordinary request for that calendar file. |
 
 Websites you visit see you as any browser would be seen. Carrel does not hide your IP address and is not a privacy browser.
+
+## The Keychain box
+
+macOS may ask whether Carrel can use "Carrel Safe Storage" in your keychain. **That box belongs to macOS. Carrel never receives your Mac password**, and no one else does either: you type it into macOS, which uses it to unlock your Keychain for that one request. Carrel only gets back its own random secret, which it uses to scramble your private notes and any AI key you add, so other programs on your Mac cannot read them. Nothing about this leaves your Mac. If you choose Deny, Carrel cannot scramble or read those items and may behave oddly until you allow it.
 
 ## AI features (optional, only with your own key)
 

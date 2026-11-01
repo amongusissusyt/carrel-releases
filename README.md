@@ -9,7 +9,7 @@ Carrel is an early test version, made by one person (Ansh Sarawagi) for macOS. I
 - **Focus sessions.** Press ⇧⌘F, write the one thing you are doing, and only the sites you allowed will open. Anything else makes you wait, so a passing urge has time to pass.
 - **Blocks adult sites and distractions, and is slow to switch off.** The adult-content filter is always on. Turning off the blocking of adult-heavy platforms (Reddit, X, Discord…) takes 24 hours.
 - **"Take a moment" for urges.** A slow-breathing pause, a private note, and an optional 30-minute lockdown of your distraction sites (social media, streaming, games).
-- **A private journal behind its own passcode** for urges and what set them off, encrypted with your Mac's Keychain.
+- **A private journal behind its own passcode** for urges and what set them off. It stays on your Mac, scrambled so other programs cannot read it.
 - **Habits and daily wins.** A month grid you can drag across, streaks, and one physical, one mental and one academic win a day.
 - **Deadlines and a calendar you can edit.** Add things by typing "Maths tomorrow 4pm for 2h", drag them around, mark times that repeat every day.
 - **A normal browser underneath:** tabs grouped into spaces, find, zoom, bookmarks, history, downloads.
@@ -35,6 +35,17 @@ Carrel is not signed with a paid Apple certificate, so macOS stops it once. This
 (If you prefer Terminal: `xattr -dr com.apple.quarantine /Applications/Carrel.app`, then open it normally.)
 
 After that, Carrel looks for new versions itself. When one is ready, click **Update available** and then **Install and restart**.
+
+### If macOS asks about your Keychain
+
+You may see a box saying **"Carrel wants to use your confidential information stored in 'Carrel Safe Storage' in your keychain."**
+
+- **That box is made by macOS, not by Carrel.** Carrel never sees your Mac password. You type it into macOS's own box, and macOS does not pass it on.
+- Carrel keeps one random secret in your Keychain, and uses it only to scramble your private notes (and any AI key you add) so other programs on your Mac cannot read them.
+- Nothing is sent anywhere. There is no server and no account.
+- Click **Always Allow**. You may be asked again after an update, because updates are not signed with a paid Apple certificate, so macOS treats each one as a new app.
+- If you clicked **Deny**, quit Carrel, open it again and click **Allow**. Carrel may behave oddly until you do.
+- To remove the secret later: open Keychain Access and delete "Carrel Safe Storage".
 
 ## Please read
 
